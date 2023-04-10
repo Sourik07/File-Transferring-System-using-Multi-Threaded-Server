@@ -1,0 +1,20 @@
+{
+  "operation": "1",
+  "username": "user0",
+  "works": [
+    {
+      "to_users": ["user2", "user3"],
+      "files": [
+        "/home/nbaskey/Documents/test/first.pdf",
+        "/home/nbaskey/Documents/test/second.pdf"
+      ]
+    },
+    {
+      "to_users": ["user6", "user8"],
+      "files": [
+        "/home/nbaskey/Documents/test/third.pdf",
+        "/home/nbaskey/Documents/test/fourth.pdf"
+      ]
+    }
+  ]
+}
