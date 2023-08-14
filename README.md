@@ -3,11 +3,17 @@
 
 Our Project is based on Client-Server Model. In this model, there is a single server that will be handling the client’s request. Each client will send its request to the Server’s listening PORT.
 A server having more than one thread is known as Multithreaded Server. When a client sends a request, a thread is generated which will process that request. We need to generate multiple threads to process multiple requests from multiple clients at the same time.
+
+
 i)	Domain Description
 Our MFS can allow a maximum of 4 multiple clients to upload as well as download from the server concurrently. This maximum number can be increased as per need and it will require much more powerful hardware.
 MFS uses the Thread Pool to handle threads MFS.
+
+
 ii)	Motivation
 Let’s take an example, say there is an office consisting of 100 employees and these employees are working in different departments and they need to share files with each other. With MFS, employees can just upload their files to the Server and other employees can easily download it into their respective PC
+
+
 iii)	Scope
 The features available to the Clients are:
 • Can upload a file of max size approx 260 bytes. But it depends on the storage size available on the server. If the storage size in the server is 5TB then clients must to not upload file size more than 5TB
