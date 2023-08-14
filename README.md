@@ -1,9 +1,7 @@
 # Multithreaded-File-Server
 ![pc-to-pc](https://github.com/Sourik07/Multithreaded-File-Server/assets/113095592/d4bb1c6d-b661-497c-a3c7-c60d82b15767)
 
-Our Project is based on Client-Server Model. In this model, there is a single server that will be handling the client’s request. Each client will send its request to the Server’s listening PORT.
-A server having more than one thread is known as Multithreaded Server. When a client sends a request, a thread is generated which will process that request. We need to generate multiple threads to process multiple requests from multiple clients at the same time.
-
+The File Transferring System using the Multi-Threaded Server project is a software application that enables the efficient and reliable transfer of files between multiple clients and a central server. The system is designed using a multi-threaded server architecture to handle multiple clients concurrently, improving the overall system performance.
 
 i)	Domain Description
 Our MFS can allow a maximum of 4 multiple clients to upload as well as download from the server concurrently. This maximum number can be increased as per need and it will require much more powerful hardware.
